@@ -2,7 +2,7 @@
 
 <p align="center">
 Boas-vindas ao projeto Perfil de viagens <br/>
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+
 
 </p>
 
