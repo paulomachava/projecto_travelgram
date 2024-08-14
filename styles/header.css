@@ -46,22 +46,28 @@ width: 280px;
     gap: 8px;
 }
 
-@media (width < 30em){
+@media (width <= 30em){
 header .container{
     display: grid;
-}
+
     #profile{
         display: grid;
         gap: 32px;
         align-items: center;
-    }
-    #profile p{
+      & p{
         max-width: 296px;
-       
-    
+      }
+      & img{
+        width: 120px;
+        height: 120px;
     }
-    #info{
-        margin-top: 32px;
+    & h1{
+        font-size: 24px;
     }
- 
+   
+    }
+}
+#info{
+    margin-top: 32px;
+}
 }
