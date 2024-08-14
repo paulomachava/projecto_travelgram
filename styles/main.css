@@ -9,3 +9,11 @@ main img{
     height: 287px;
        object-fit: cover;
 }
+@media (width < 30em){
+    main{
+        display: grid;
+        & img{
+            width: 100%;
+        }
+    }
+}

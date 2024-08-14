@@ -26,3 +26,16 @@ nav ul li:last-child img{
 .bg-surface-color{
     background-color:var(--surface-color);
 }
+
+@media (width < 30em){
+    .container{
+        padding-inline: 1rem;
+    }
+
+    nav ul li:nth-child(2) {
+       display: none;
+    }
+    nav ul li:nth-child(3) {
+        display: none;
+     }
+}

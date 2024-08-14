@@ -45,3 +45,23 @@ width: 280px;
     align-items: center;
     gap: 8px;
 }
+
+@media (width < 30em){
+header .container{
+    display: grid;
+}
+    #profile{
+        display: grid;
+        gap: 32px;
+        align-items: center;
+    }
+    #profile p{
+        max-width: 296px;
+       
+    
+    }
+    #info{
+        margin-top: 32px;
+    }
+ 
+}
